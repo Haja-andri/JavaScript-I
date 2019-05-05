@@ -22,54 +22,72 @@ const example = {
 // Haja code here
 
 const intern1 = {
-  "id" : '1', 
-  "email": 'mmelloy0@psu.edu', 
-  "first-name": 'Mitzi',
-  "gender": 'F'
+  id: '1', 
+  email: 'mmelloy0@psu.edu', 
+  firstName: 'Mitzi',
+  gender: 'F',
+  PrintName: function(){
+    return 'My name is ' + this.firstName;
+  }
 }
 
 const intern2 = {
   "id" : '2', 
   "email": 'kdiben1@tinypic.com', 
   "first-name": 'Kennan',
-  "gender": 'M'
+  "gender": 'M',
+  PrintID: function(){
+    return 'My ID is ' + this.id;
+  }
 }
 
 const intern3 = {
-  "id" : '3', 
-  "email": 'kmummery2@wikimedia.org', 
-  "first-name": 'Keven',
-  "gender": 'M'
+  id : '3', 
+  email: 'kmummery2@wikimedia.org', 
+  firstName: 'Keven',
+  gender: 'M',
+  PrintEmail: function(){
+    return 'My email is ' + this.email;
+  }
 }
 
 const intern4 = {
-  "id" : '4', 
-  "email": 'gmartinson3@illinois.edu', 
-  "first-name": 'Gannie',
-  "gender": 'M'
+  id : '4', 
+  email: 'gmartinson3@illinois.edu', 
+  firstName: 'Gannie',
+  gender: 'M',
+  PrintName: function(){
+    return 'My name is ' + this.firstName;
+  }  
 }
 
 const intern5 = {
-  "id" : '5', 
-  "email": 'adaine5@samsung.com', 
-  "first-name": 'Antonietta',
-  "gender": 'F'
+  id : '5', 
+  email: 'adaine5@samsung.com', 
+  firstName: 'Antonietta',
+  gender: 'F',
+  PrintGender: function(){
+    return 'My name is ' + this.gender;
+  }    
 }
-
-
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+console.log(intern1.PrintName());
 
 // Kennan's ID
+console.log(intern2.PrintID());
 
 // Keven's email
+console.log(intern3.PrintEmail());
 
 // Gannie's name
+console.log(intern4.PrintName());
 
 // Antonietta's Gender
+console.log(intern5.PrintGender());
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
