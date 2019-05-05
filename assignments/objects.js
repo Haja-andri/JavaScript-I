@@ -18,6 +18,7 @@ const example = {
 }
 
 // Write your intern objects here:
+// Haja code here
 
 
 // ==== Challenge 2: Reading Object Data ==== 
