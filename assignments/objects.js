@@ -27,7 +27,7 @@ const intern1 = {
   firstName: 'Mitzi',
   gender: 'F',
   PrintName: function(){
-    return 'My name is ' + this.firstName;
+    return + this.firstName;
   }
 }
 
@@ -37,7 +37,7 @@ const intern2 = {
   "first-name": 'Kennan',
   "gender": 'M',
   PrintID: function(){
-    return 'My ID is ' + this.id;
+    return + this.id;
   }
 }
 
@@ -47,7 +47,7 @@ const intern3 = {
   firstName: 'Keven',
   gender: 'M',
   PrintEmail: function(){
-    return 'My email is ' + this.email;
+    return + this.email;
   }
 }
 
@@ -57,7 +57,7 @@ const intern4 = {
   firstName: 'Gannie',
   gender: 'M',
   PrintName: function(){
-    return 'My name is ' + this.firstName;
+    return + this.firstName;
   }  
 }
 
@@ -67,7 +67,7 @@ const intern5 = {
   firstName: 'Antonietta',
   gender: 'F',
   PrintGender: function(){
-    return 'My name is ' + this.gender;
+    return this.gender;
   }    
 }
 
